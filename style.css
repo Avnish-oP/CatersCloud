@@ -1,0 +1,234 @@
+/* bimlesh part */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+
+}
+.navbar{
+    background: rgb(250, 152, 132, 0.3);
+    height:15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    height: 50px;
+    padding: 0.5rem;
+}
+.name{
+    height: 20px;
+}
+.brand{
+    display: flex;
+    align-items:center;
+}
+body{
+    background-color:rgb(255, 229, 202) ;
+}
+.container-top{
+    width: 100%;
+    height: 80vh;
+}
+.heading{
+    margin-top: 10vh;
+    font-size: 15vh;
+    font-weight: 700;
+    color: rgb(231, 70, 70)
+}
+.btn{
+    display:flex;
+    justify-content: center;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 100px;
+    background-color:rgb(231, 70, 70);
+    border: none;
+    color:rgb(255, 243, 227);
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    width: 225px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    bottom: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  #email {
+    width: 30rem;
+    padding: 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid rgb(255, 243, 226);
+    border-radius: 100px;
+    box-sizing: border-box;
+    font-size: 25px;
+  }
+  
+  .get-started{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn1{
+    margin-top: 20vh;
+    background-color: rgba(33, 12, 12, 0);
+  }
+  .btn2{
+    margin-top: 5vh;
+    background-color: rgba(0, 255, 255, 0);
+  }
+  .about {
+    text-decoration: none;
+    background-color: transparent; 
+    color: rgb(231, 70, 70); 
+    border: 2px solid rgb(231, 70, 70);
+  }
+  
+  .about:hover {
+    background-color: rgb(231, 70, 70);
+    color: rgb(255, 243, 227);
+  }
+
+
+  /* down arrow animation */
+
+.arrow {
+    transform: translate(-50%, -50%);
+    transform: rotate(0deg);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow span {
+    display: block;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-bottom: 5px solid #FA9884;
+    border-right: 5px solid #E74646;
+    transform: rotate(45deg);
+    margin: -5px;
+    animation: animate 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+}
+
+
+
+
+
+/* avnish part */
+
+.container{
+    display: flex;
+    background-color: rgb(255, 243, 226);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+.flex-1{
+    background-color: rgb(250, 152, 132);
+    display: flex;
+    flex-basis: 75%;
+    gap: 4rem;
+    
+}
+.img-2{
+    align-self: center;
+    margin-top: 30vh;
+}
+.img-1{
+    align-self: flex-start;
+    margin-top: 10vh;
+    margin-left: 8vw;
+}
+.flex-2{
+    display: flex;
+    height:fit-content;
+    flex-direction: column;
+    flex-basis: 30%;
+    background-color:0;
+    position: relative;
+    left: -20vh;
+    top: 25vh;
+}
+.modify-a{
+    text-decoration: none;
+    padding: 20px;
+    width: 180px;
+    color: rgb(255, 243, 226);
+    font-weight: bold;
+}
+p{
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.explain{
+    width: 400px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+.tittle{
+    color: #E74646;
+    text-align: left;
+    font-size: 30px;
+    
+}
+.image{
+    border: rgb(255, 229, 202) 10px solid;
+}
