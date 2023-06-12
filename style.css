@@ -12,6 +12,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+    
 }
 
 .logo{
@@ -24,6 +26,7 @@
 .brand{
     display: flex;
     align-items:center;
+
 }
 body{
     background-color:rgb(255, 229, 202) ;
@@ -37,7 +40,10 @@ body{
     top: 10vh;
     font-size: 15vh;
     font-weight: 700;
-    color: rgb(231, 70, 70)
+    color: rgb(231, 70, 70);
+    text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+      
+      
 }
 .btn{
     display:flex;
@@ -109,12 +115,14 @@ body{
     position: relative;
     top: -15vh;
     background-color: rgba(0, 255, 255, 0);
+    margin-top: 50px;
   }
   .about {
     text-decoration: none;
     background-color: transparent; 
     color: rgb(231, 70, 70); 
     border: 2px solid rgb(231, 70, 70);
+    text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
   }
   
   .about:hover {
